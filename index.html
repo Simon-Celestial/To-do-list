@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Tracker </title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="apex">
+    </div>
+    <h1>To-Do List</h1>
+    <div class="input-block">
+        <div class="empty">
+            <button id="sort">
+            <img id="sortImg" src="./assets/icons/sort.png" alt="sorting">
+            </button>
+        </div>
+        <div class="bordered">
+            <input type="text" id="mainInput" tabindex="1">
+            <button id="clear">
+                <div class="circle-block">
+                    X
+                </div>
+            </button>
+        </div>
+        <div class="items-container" data-direction="none"></div>
+        <button class="add">
+            <div class="img-round">
+                +
+            </div>
+            Добавить
+        </button>
+    </div>
+</div>
+<script src="./assets/js/main.js"></script>
+</body>
+</html>
